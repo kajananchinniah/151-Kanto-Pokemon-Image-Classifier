@@ -1,3 +1,15 @@
+'''
+-------------------------------------------------------------
+transfer_net.py
+-------------------------------------------------------------
+File creates a model that has the architecture of densenet121 
+w/ pretrained weights, then changes the classifier to a fc layer
+and retrains that part to classify the Pokemon
+Note: training is also done in this file and saving the model is done in this file
+-------------------------------------------------------------
+
+
+'''
 import matplotlib.pyplot as plt
 import torch
 from torch import nn
