@@ -1,6 +1,6 @@
 # 151-Kanto-Pokemon-Image-Classifier
 
-Note: transfer_net.py does both architecture intialization, and training. test.py and image_visual.py are basically the same as my Kanto Pokemon image classifier. 
+Note: transfer_net.py does both architecture intialization, and training. test.py and image_visual.py from my Kanto Pokemon image classifier can be modified for using this model. 
 
 Image classifier that predicts what Pokemon the image is (from the original 151). Classifier was implemented using PyTorch. Network architecture derived using a pretrained densenet network, and then retraining it's classifier. 
 
